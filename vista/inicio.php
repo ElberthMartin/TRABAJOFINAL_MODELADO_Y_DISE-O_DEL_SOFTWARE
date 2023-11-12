@@ -15,7 +15,7 @@
 <div class="page-content">
 
     <h4 class="text-center text-secondary">Asistencia de estudiante</h4>
-    <table class="table">
+    <table class="table" id="example">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -31,17 +31,7 @@
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+
   </tbody>
 </table>
 </div>
