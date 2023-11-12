@@ -23,8 +23,16 @@
 
     <h4 class="text-center text-secondary">Registro  de Usuarios</h4>
     
+<?php
+include "../controlador/controlador_registrar_usuario.php"
+?>
+
+
+
+
+
 <div class="row" >
-  <form action="">
+  <form action="" method="POST">
     <div class="fl-flex-label mb-4 px-2 col-12 col-md-6 ">
 <input type="text" placeholder="Nombre" class="input input__text" name="txtnombre" >
 </div>
@@ -47,7 +55,7 @@
 
 <div class="text-right p-2">
   <a href=""class="btn btn secondary btn-rounded">Atras</a>
-<button type="submit" class="btn btn-primary btn-rounded">Registrarse</button>
+<button type="submit" value="ok" name="btnregistrar" class="btn btn-primary btn-rounded">Registrarse</button>
 
 </div>
 

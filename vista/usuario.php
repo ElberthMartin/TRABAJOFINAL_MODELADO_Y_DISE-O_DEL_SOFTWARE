@@ -57,6 +57,7 @@ $sql = $conexion->query("SELECT * FROM usuario");
         <td>
           <a href="" class=" btn btn-warning "><i class="fa-solid fa-pen-to-square"></i></a>
         <a href="inicio.php?id=<?= $datos->id_usuario ?>" onclick="return confirm('Are you sure you want to delete this user?')" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+      
       </tr>
 
     <?php
