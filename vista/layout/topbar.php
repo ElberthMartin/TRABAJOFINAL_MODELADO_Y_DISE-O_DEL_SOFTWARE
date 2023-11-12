@@ -47,6 +47,7 @@
         <link href="https://fonts.gstatic.com" rel="preconnect">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
+        <script src="https://kit.fontawesome.com/646ac4fad6.js" crossorigin="anonymous"></script>
         <!-- pnotify -->
         <script src="../public/pnotify/js/jquery.min.js">
         </script>
