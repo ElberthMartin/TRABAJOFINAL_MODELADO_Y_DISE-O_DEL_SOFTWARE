@@ -12,8 +12,11 @@
     <a href="">Ingresar al sistema</a>
     <p>ingrese su dni</p>
 
-    <form action=""><input type="Dni empleado"></form>
-</div>
+    <form action="">
+        <input type="txt" placeholder="DNI del empleado" name="txtdni"></form>
+<a href="">Entrada</a>
+<a href="">Salida</a>
+    </div>
 <script>
 setInterval(() => {
     let fecha = new Date();
