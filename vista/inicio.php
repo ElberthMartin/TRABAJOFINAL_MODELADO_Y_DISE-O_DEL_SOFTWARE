@@ -7,12 +7,11 @@
 ?>
 
 <script>
-  function advertencia(){
-    var not = confirm("¿Estás seguro que deseas eliminar?");
+  fuction advertencia(){
+    var not=confirm("¿Estas seuro que deseas eliminar?")
     return not;
   }
 </script>
-
 
 <!-- primero se carga el topbar -->
 <?php require('./layout/topbar.php'); ?>
@@ -69,7 +68,7 @@ INNER JOIN cargo ON empleado.grado = cargo.id_cargo;");
 
       <tr>
         <th><?php echo $datos->id_asistencia; ?></th>
-        <td><?php echo $datos->nom_empleado . ' ' . $datos->apellido; ?></td>
+        <td><?php echo $datos->nom_empleado . ' ' . $datos->apellido ?></td>
         <td><?php echo $datos->dni; ?></td>
         <td><?php echo $datos->grado; ?></td>
         <td><?php echo $datos->seccion; ?></td>
