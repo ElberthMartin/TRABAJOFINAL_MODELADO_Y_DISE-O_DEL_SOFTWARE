@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-   <h1>Bienvenidos, Por favo registra tu asistencia</h1> 
-   <h2 id="fecha"></h2>
-<div>
-    <a href="">Ingresar al sistema</a>
-    <p>ingrese su dni</p>
+    <div class="login-box">
+ <h2>Bienvenidos, Por favor registra tu asistencia</h2>
+  <h2 id="fecha"></h2>
+  <form>
 
-    <form action="">
-        <input type="txt" placeholder="DNI del empleado" name="txtdni"></form>
-<a href="">Entrada</a>
-<a href="">Salida</a>
+    <div class="user-box">
+        
+    <input type="txt" placeholder="DNI del estudiante" name="txtdni">
+      
+      <label>DNI DEL ESTUDIANTE</label>
     </div>
+    
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Entrada
+    </a>
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      salida
+    </a>
+
+  </form>
+  <a href="">Ingresar al sistema</a>
+</div>
 <script>
 setInterval(() => {
     let fecha = new Date();
