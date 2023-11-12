@@ -23,9 +23,36 @@
 
     <h4 class="text-center text-secondary">Registro  de Usuarios</h4>
     
-<div class >
+<div class="row" >
+  <form action="">
+    <div class="fl-flex-label mb-4 px-2 col-12 col-md-6 ">
+<input type="text" placeholder="Nombre" class="input input__text" name="txtnombre" >
+</div>
 
 
+<div class="fl-flex-label mb-4 px-2 col-12 col-md-6 ">
+<input type="text" placeholder="Apellido" class="input input__text" name="txtapellido" >
+</div>
+
+
+<div class="fl-flex-label mb-4 px-2 col-12 col-md-6 ">
+<input type="text" placeholder="Usuario" class="input input__text" name="txtusuario" >
+</div>
+
+
+<div class="fl-flex-label mb-4 px-2 col-12 col-md-6 ">
+<input type="password" placeholder="Contraseña" class="input input__text" name="txtcontraseña" >
+</div>
+
+
+<div class="text-right p-2">
+  <a href=""class="btn btn secondary btn-rounded">Atras</a>
+<button type="submit" class="btn btn-primary btn-rounded">Registrarse</button>
+
+</div>
+
+
+  </form>
 </div>
 
 </div>
