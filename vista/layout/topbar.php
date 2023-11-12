@@ -125,7 +125,7 @@
 
                             <div class="dropdown dropdown-notification">
                                 <h6 class="text-light mt-2">
-                                    Administrador
+                                   
                                 </h6>
                             </div>
 
