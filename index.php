@@ -35,7 +35,7 @@
     </a>
 
   </form>
-  <a href="">Ingresar al sistema</a>
+  <a href="vista/login/login.php">Ingresar al sistema</a>
 </div>
 <script>
 setInterval(() => {
