@@ -1,7 +1,7 @@
 <?php
 //para marcar asistencia
 include("conexion.php");
-date_default_timezone_set('America/El_Salvador');
+date_default_timezone_set('America/Lima');
 $codigo = $_POST['codigo']; //empleado
 $marca = $_POST['marca']; //puede ser entrada o salida E ó S
 $fecha=date('Y-m-d');
