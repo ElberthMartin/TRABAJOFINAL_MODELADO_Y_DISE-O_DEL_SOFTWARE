@@ -16,10 +16,12 @@ date_default_timezone_set('America/Lima');
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <title>Asistencia</title>
 </head>
-<body style="background-color: #e4efe7;">
+<body style="background-color: rgba(128, 128, 128, 0.5);">
+
+
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">LOGO</a>
+            <a class="navbar-brand" href="index.php"></a>
             <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="POST" class="d-flex flex-row">
                 <div class="d-flex flex-row">
                     <div class="form-group has-feedback bg-light border border-light rounded">
